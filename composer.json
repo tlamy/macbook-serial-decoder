@@ -1,0 +1,20 @@
+{
+    "name": "tlamy/macbook-serial-decoder",
+    "description": "A library to decode macbook serial numbers (pre 2018)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tlamy\\MacbookSerialDecoder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas Lamy",
+            "email": "bigtwow@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
